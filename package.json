@@ -1,0 +1,23 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonbr13/freecodecamp-basic-algorithm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonbr13/freecodecamp-basic-algorithm/issues"
+  },
+  "homepage": "https://github.com/antonbr13/freecodecamp-basic-algorithm#readme",
+  "dependencies": {
+    "angular": "^1.6.2",
+    "normalize.css": "^5.0.0"
+  }
+}

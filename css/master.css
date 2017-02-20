@@ -1,0 +1,30 @@
+body {
+   background-color: #faf2df;
+}
+
+.main-container {
+   width: 90%;
+   margin: 0 auto;
+}
+
+h1 {
+   text-align: center;
+   margin: 40px 0 60px;
+}
+
+
+.row {
+   margin: 0 auto;
+}
+
+
+.col-md-4 h4 {
+   text-align: center;
+   padding-bottom: 5px;
+
+}
+
+.col-md-4 {
+   border: black solid 1px;
+
+}
