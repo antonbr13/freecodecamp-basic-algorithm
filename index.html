@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html ng-app="basicAlgorithms">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <title>Basic Algorithms</title>
+      <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.css">
+      <link rel="stylesheet" href="./css/master.css">
+      <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+   </head>
+
+
+   <body ng-controller='basicCtrl as basic'>
+      <h1>Basic JavaScript Algorithm Scripting</h1>
+
+<div class="main-container">
+
+      <h3>Reverse a String</h3>
+      <div class="row">
+
+
+<!-- .reverse() Method --------------------------->
+         <div class="col-md-4">
+            <h4>Using String Method '.reverse()' </h4>
+
+            <form ng-submit="basic.reverse1()">
+              Enter a string and hit enter to reverse it:
+              <input type="text"   ng-model="basic.input1"  name="text" />
+              <input type="submit" id="submit" value="Submit" />
+            </form>
+
+            <pre>{{basic.output1}}</pre>
+         </div>
+
+
+
+<!-- While Loop --------------------------->
+
+         <div class="col-md-4">
+            <h4>for loop</h4>
+
+            <form ng-submit="basic.reverse2()">
+            Enter a sentence and hit enter to reverse it:
+               <input type="text" ng-model='basic.input2'>
+               <input type="submit"  value="Submit">
+            </form>
+            <pre>{{basic.outout2}}</pre>
+
+
+
+
+         </div>
+
+
+
+<!-- While Loop --------------------------->
+
+         <div class="col-md-4">
+            <h4>do while loop</h4>
+         </div>
+      </div>
+
+</div>
+
+<!-- Scripts -->
+   <script src="node_modules/angular/angular.js" charset="utf-8"></script>
+
+   <script src="js/app.js" charset="utf-8"></script>
+   <script src="js/controller.js" charset="utf-8"></script>
+   <script src="js/service.js" charset="utf-8"></script>
+
+   <script src="./bower_components/jquery/dist/jquery.js" charset="utf-8"></script>
+   <script src="./bower_components/bootstrap/dist/js/bootstrap.js" charset="utf-8"></script>
+
+   </body>
+</html>
